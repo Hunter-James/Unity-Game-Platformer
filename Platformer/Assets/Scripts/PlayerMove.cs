@@ -1,18 +1,17 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using System.Collections;
 
 public class PlayerMove : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public float speed;
+    public float force;
+    private Vector2 direction;
+    private Rigidbody2D rigidbody;
+
+
+    void FixedUpdate()
     {
         
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
         
     }
 }
