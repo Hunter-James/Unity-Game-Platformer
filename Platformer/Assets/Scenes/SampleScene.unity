@@ -354,7 +354,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 20
-  force: 0
+  moveInput: 0
+  spriteRen: {fileID: 1515312392}
 --- !u!1 &2110509310
 GameObject:
   m_ObjectHideFlags: 0
