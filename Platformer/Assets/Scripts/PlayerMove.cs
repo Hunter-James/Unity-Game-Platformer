@@ -13,7 +13,6 @@ public class PlayerMove : MonoBehaviour
     private void Start()
     {
         ridbody = GetComponent<Rigidbody2D>();
-
     }
 
     private void Update()

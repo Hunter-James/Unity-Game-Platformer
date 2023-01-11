@@ -176,7 +176,7 @@ Camera:
   far clip plane: 10
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 11.39
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -268,7 +268,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 14.21
+  m_GravityScale: 9.82
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -353,8 +353,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a929858eecd707543980f8bf8d755920, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  force: 20
   speed: 20
   moveInput: 0
+  ridbody: {fileID: 1515312391}
   spriteRen: {fileID: 1515312392}
 --- !u!1 &2110509310
 GameObject:
